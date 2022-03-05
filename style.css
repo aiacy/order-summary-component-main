@@ -7,7 +7,7 @@
 body{
   background-image: url("./images/pattern-background-desktop.svg");
   display: grid;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   height: 100vh;
   background-repeat: no-repeat; 
