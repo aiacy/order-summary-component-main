@@ -59,6 +59,11 @@ button{
   color: hsl(245, 75%, 52%);
 }
 
+.card a:hover{
+    color:  hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
 .summary{
   padding: 2rem;
   display: grid;
@@ -95,11 +100,21 @@ button.primary{
   box-shadow: 0px 28px 15px -3px hsl(245, 75%, 52%, 0.1);
   color: white;
   margin: 1rem;
+  cursor: pointer;
+}
+
+button.primary:hover{
+    background-color: hsl(224, 23%, 55%);
 }
 
 button.secondary{
   background-color: transparent;
   color: hsl(224, 23%, 55%);
+}
+
+button.secondary:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
 }
 
 .plan-info{
