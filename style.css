@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+  background-image: url("./images/pattern-background-desktop.svg");
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-repeat: no-repeat; 
+  background-position-y: -80px;
+  background-color: hsl(225, 100%, 94%);
+
+  
+}
+
+h1{
+  font-weight: 900;
+}
+
+.card-container{
+  background-color: white;
+  display: grid;
+  align-items: center;
+  width: 400px;
+  border-radius: 2rem;
+}
+
+p{
+  font-size: 16px;
+  text-align: center;
+  padding: 0;
+}
+img.hero{
+  border-radius: 2rem 2rem 0 0;
+  width: 400px;
+}
+
+button{
+  width: 10rem;
+}
+
+.card{
+  background-color: hsl(225, 100%, 98%);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr ;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 1rem;
+  width: -webkit-fill-available;
+  justify-items: center;
+  border-radius: .5rem;
+}
+
+.card a{
+  color: hsl(245, 75%, 52%);
+}
+
+.summary{
+  padding: 2rem;
+  display: grid;
+  justify-items: center;
+}
+
+p.heading{
+  padding: 1rem;
+  color: hsl(224, 23%, 55%);
+}
+
+p.plan-type{
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+
+p.plan-price{
+  color: hsl(224, 23%, 55%);
+}
+
+
+button{
+  border: none;
+  padding: 1rem;
+  border-radius: .5rem;
+  width: -webkit-fill-available;
+  font-weight: 700;
+}
+
+button.primary{
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 28px 15px -3px hsl(245, 75%, 52%, 0.1);
+  color: white;
+  margin: 1rem;
+}
+
+button.secondary{
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-info{
+  justify-self: start;
+}
+
+.attribution { font-size: 11px; text-align: center; margin: 1rem;}
+.attribution a { color: hsl(228, 45%, 44%); }
